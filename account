@@ -1,0 +1,7 @@
+ 1. 0x13267AC5FdCfF73b0Fb5DF0e4f2645848cEAA912
+ 2. 0x1a25fCf07B0aCb3d9878D7A5c4c349C1550B70ff
+ 3. 0xb9b24632F2Cd7FC58F1aDD57166F7086f53a2D2a
+ 4. 0x51b4923F4812c975d8CfB579138DA2AdF0A1ea68
+ 5. 0xd0A4fBd8f3C163399558838384220c189BFedd3c
+
+ geth --datadir data --networkid 5738574 --unlock 0x13267AC5FdCfF73b0Fb5DF0e4f2645848cEAA912 --allow-insecure-unlock --http --http.corsdomain="*" --http.api web3,eth,debug,personal,net,miner --miner.etherbase 0x13267AC5FdCfF73b0Fb5DF0e4f2645848cEAA912

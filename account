@@ -4,4 +4,8 @@
  4. 0x51b4923F4812c975d8CfB579138DA2AdF0A1ea68
  5. 0xd0A4fBd8f3C163399558838384220c189BFedd3c
 
- geth --datadir data --networkid 5738574 --unlock 0x13267AC5FdCfF73b0Fb5DF0e4f2645848cEAA912 --allow-insecure-unlock --http --http.corsdomain="*" --http.api web3,eth,debug,personal,net,miner --miner.etherbase 0x13267AC5FdCfF73b0Fb5DF0e4f2645848cEAA912
+ 
+geth --datadir data --networkid 5738574 --unlock 0x13267AC5FdCfF73b0Fb5DF0e4f2645848cEAA912 --allow-insecure-unlock --http --http.corsdomain="*" --http.api web3,eth,debug,personal,net,miner --miner.etherbase 0x13267AC5FdCfF73b0Fb5DF0e4f2645848cEAA912
+
+geth attach --datadir data ipc:\\.\pipe\geth.ipc
+
